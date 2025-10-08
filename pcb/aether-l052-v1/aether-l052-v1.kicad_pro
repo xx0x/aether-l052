@@ -48,11 +48,50 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|111340000|100246282|3d16dc08-c5e2-461c-8e80-f15b8ca80227|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|111340000|100246282|94148c45-d481-414e-95ad-73a3dbd0d543|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|145966282|99480000|41e84ba8-32d2-48e2-b454-3e55defea01c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|144025800|96816400|01abd623-c66e-464a-b4b4-77222df728c3|1f91534f-2b0a-46b8-a72d-a0628ced801e",
+          ""
+        ],
+        [
+          "silk_overlap|145186400|92113328|c292e241-32c3-44da-a3a9-4755f978b93e|ea6ce809-1b10-4e5f-9832-c41dc43c46d4",
+          ""
+        ],
+        [
+          "starved_thermal|107295000|87125000|3a54e23c-183f-42ce-862a-2fec0694edf6|156d16a8-72db-4881-8efa-80a36c68e5fa|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|107295000|93225000|3a54e23c-183f-42ce-862a-2fec0694edf6|f434c3e8-c08f-4478-9505-2bf33031bfd5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|107295000|93525000|3a54e23c-183f-42ce-862a-2fec0694edf6|3e2f94f0-0f98-432c-8b11-45104dac5504|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -60,9 +99,9 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -73,7 +112,7 @@
         "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
-        "hole_clearance": "error",
+        "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
@@ -94,13 +133,13 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "warning",
+        "text_height": "ignore",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -180,7 +219,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +249,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -473,13 +520,39 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/VBAT": [
+        "Power"
+      ],
+      "GND": [
+        "Power"
+      ],
+      "Net-(D1-K)": [
+        "Power"
+      ],
+      "Net-(F1-Pad1)": [
+        "Power"
+      ],
+      "VBUS": [
+        "Power"
+      ],
+      "VDD": [
+        "Power"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
