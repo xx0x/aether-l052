@@ -9,8 +9,9 @@
 		(date "2025-10-04")
 		(rev "1")
 		(company "github.com/xx0x/aether-l052")
-		(comment 1 "A dev board based on STM32L052K8U6")
+		(comment 1 "License: CERN-OHL-P-2.0")
 		(comment 2 "Ultra-low standby mode, battery charger")
+		(comment 3 "A dev board based on STM32L052K8U6")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73832-2-OT"
@@ -6568,18 +6569,6 @@
 			)
 		)
 		(uuid "d4ea08a0-32ea-490c-bf6a-e0fb8f52ab31")
-	)
-	(text "IN PROGRESS"
-		(exclude_from_sim no)
-		(at 218.948 143.764 0)
-		(effects
-			(font
-				(size 10.16 10.16)
-				(thickness 1.524)
-				(bold yes)
-			)
-		)
-		(uuid "ddf304d4-ffed-4d39-8d08-6a4ec1158fd3")
 	)
 	(junction
 		(at 193.04 62.23)
