@@ -1,8 +1,15 @@
 # Æther L052
 
-A development board based on STM32L052K8U3 chip, optimized for low power applications. Form factor based on and compatible with Adafruit Feather series.
+A development board based on STM32L052K8U3 chip, optimized for low power applications. Form factor based on (and compatible with) Adafruit Feather series.
 
-## Specs
+<a href="./photos/aether-l052-set.jpg"><img src="./photos/aether-l052-set.jpg" alt="Aether L052" width="500"></a>
+
+## Schematic
+
+<a href="./pcb/aether-l052-v1/aether-l052-v1-schematic.pdf"><img src="./photos/aether-l052-schematic-v1.png" alt="Aether L052" width="500"></a>  
+*Click to see the full-size PDF*
+
+## Specifications
 
 ### Microcontroller
 
@@ -29,15 +36,6 @@ A development board based on STM32L052K8U3 chip, optimized for low power applica
 | -------------- | --------------------- |
 | Charge Current | 100 mA (set using R4) |
 | Charge State   | Available through PB8 |
-
-## Schematic
-<a href="./pcb/aether-l052-v1/aether-l052-v1-schematic.pdf"><img src="./photos/aether-l052-schematic-v1.png" alt="Aether L052" width="500"></a>
-
-
-## Photo
-
-<a href="./photos/aether-l052-set.jpg"><img src="./photos/aether-l052-set.jpg" alt="Aether L052" width="500"></a>
-
 
 ## Where to get?
 
