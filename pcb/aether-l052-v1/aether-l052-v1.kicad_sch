@@ -11,7 +11,7 @@
 		(company "github.com/xx0x/aether-l052")
 		(comment 1 "License: CERN-OHL-P-2.0")
 		(comment 2 "Ultra-low standby mode, battery charger")
-		(comment 3 "A dev board based on STM32L052K8U6")
+		(comment 3 "A dev board based on STM32L052K8U3")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73832-2-OT"

@@ -10,6 +10,7 @@
 	(title_block
 		(title "AETHER L052")
 		(date "2025-10-10")
+		(rev "1")
 		(company "github.com/xx0x/aether-l052")
 		(comment 1 "License: CERN-OHL-P-2.0")
 	)
@@ -8665,7 +8666,7 @@
 			(roundrect_rratio 0.208333)
 			(net 2 "GND")
 			(pintype "passive")
-			(uuid "1f9ba0b7-9e2b-4c2e-8540-358775e7cc22")
+			(uuid "e9ad5699-7d00-40ea-8069-64081339e367")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.step"
