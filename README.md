@@ -1,6 +1,6 @@
 # Æther L052
 
-A development board using the STM32L052K8U3, optimized for low-power use. Its form factor matches the Adafruit Feather series.
+A development board using the STM32L052K8Ux, optimized for low-power use. Its form factor matches the Adafruit Feather series.
 
 <a href="./photos/aether-l052-set.jpg"><img src="./photos/aether-l052-set.jpg" alt="Aether L052" width="500"></a>
 
@@ -13,7 +13,7 @@ A development board using the STM32L052K8U3, optimized for low-power use. Its fo
 
 ### Microcontroller
 
-| Name             | STM32L052K8U3       |
+| Name             | STM32L052K8Ux       |
 | ---------------- | ------------------- |
 | Core             | ARM Cortex M0+      |
 | Flash Size       | 64 kB               |
@@ -21,6 +21,10 @@ A development board using the STM32L052K8U3, optimized for low-power use. Its fo
 | Clock Frequency  | 32 MHz              |
 | Peripherals      | USB, SPI, I2C, UART |
 | External Crystal | None                |
+
+STM32L052K8U6 = –40 to 85 °C  
+STM32L052K8U7 = –40 to 105 °C  
+STM32L052K8U3 = –40 to 125 °C  
 
 ### Voltage Regulator
 
@@ -47,7 +51,7 @@ There was no entry-level development board for the STM32L052 series, especially 
 
 ## Code examples
 
-Look at the [STM32 L052 examples](https://github.com/xx0x/stm32-l052-examples) repository.
+Look at the [Æther L052 Examples](https://github.com/xx0x/aether-l052-examples) repository.
 
 
 ## License
