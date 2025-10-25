@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "aether-l052")(type "KiCad")(uri "${KIPRJMOD}/footprints/aether-l052.pretty")(options "")(descr ""))
+)
